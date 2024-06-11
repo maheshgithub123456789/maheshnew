@@ -1,1 +1,34 @@
 this is for the practice purpose only i want to push it to git repo
+{\displaystyle C=\{\,a\mapsto 0,b\mapsto 01,c\mapsto 011\,\}}
+is a code, whose source alphabet is the set 
+{
+𝑎
+,
+𝑏
+,
+𝑐
+}
+{\displaystyle \{a,b,c\}} and whose target alphabet is the set 
+{
+0
+,
+1
+}
+{\displaystyle \{0,1\}}. Using the extension of the code, the encoded string 0011001 can be grouped into codewords as 0 011 0 01, and these in turn can be decoded to the sequence of source symbols acab.
+
+Using terms from formal language theory, the precise mathematical definition of this concept is as follows: let S and T be two finite sets, called the source and target alphabets, respectively. A code 
+𝐶
+:
+𝑆
+→
+𝑇
+∗{\displaystyle C:\,S\to T^{*}} is a total function mapping each symbol from S to a sequence of symbols over T. The extension 
+𝐶
+′
+{\displaystyle C'} of 
+𝐶
+{\displaystyle C}, is a homomorphism of 
+𝑆
+∗{\displaystyle S^{*}} into 
+𝑇
+∗{\displaystyle T^{*}}, which naturally maps each sequence of source symbols to a sequence of target symbols.
